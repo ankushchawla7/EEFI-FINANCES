@@ -23,15 +23,15 @@ const Footer = () => {
                         <li><Link className='ff-raleway fs-16 fw-normal text-black op7 footer-link'>Contact Us</Link></li>
                     </ul>
                     <div className='d-flex gap-4 justify-content-center pt-4 flex-wrap'>
-                        <IconOne />
-                        <IconTwo/>
-                        <IconThree/>
-                        <IconFour/>
-                        <IconFive/>
-                        <IconSix/>
-                        <IconSeven/>
-                        <IconEight/>
-                        <IconNine/>
+                        <a href="https://www.youtube.com/" target='blank' className='social-link'><IconOne /></a>
+                        <a href="https://www.google.com/" target='blank' className='social-link'><IconTwo /></a>
+                        <a href="https://twitter.com/?lang=en" target='blank' className='social-link'><IconThree /></a>
+                        <a href="https://www.google.com/" target='blank' className='social-link'><IconFour /></a>
+                        <a href="https://discord.com/" target='blank' className='social-link'><IconFive /></a>
+                        <a href="https://www.google.com/" target='blank' className='social-link'><IconSix /></a>
+                        <a href="https://google.com" target='blank' className='social-link'><IconSeven /></a>
+                        <a href="https://google.com" target='blank' className='social-link'><IconEight /></a>
+                        <a href="https://google.com" target='blank' className='social-link'><IconNine /></a>
                     
                     </div>
                     <div className='d-flex justify-content-between align-items-center pt-85'>

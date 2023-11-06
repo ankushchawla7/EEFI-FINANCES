@@ -4,8 +4,8 @@ import {Container } from 'react-bootstrap'
 const Supply = () => {
     return (
         <>
-            <section className='supply-bg py-5'>
-                <Container className='custom_container py-5 d-flex flex-column align-items-center'>
+            <section className='supply-bg py-4 py-xl-5'>
+                <Container className='custom_container py-4 py-xl-5 d-flex flex-column align-items-center'>
                     <h2 className='fs-52 ff-jakarta fw-bold line-120 text-capitalize text-white text-center mb-4'>170k Total Starting Supply</h2>
                     <p className='fs-16 ff-raleway fw-medium line-183 text-center text-white '>Initial BONDing Offering (IBO)* Phases</p>
                     <div className="max-853 w-100">

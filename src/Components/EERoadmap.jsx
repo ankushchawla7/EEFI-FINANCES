@@ -4,9 +4,9 @@ import { Container } from 'react-bootstrap'
 const EERoadmap = () => {
     return (
         <>
-            <section className='Roadmap-bg overflow-hidden'>
+            <section className='Roadmap-bg overflow-hidden py-150'>
                 <Container>
-                    <h2 className='text-white ff-machine-light fw-bold text-center fs-46 py-5'>Roadmap</h2>
+                    <h2 className='text-white ff-machine-light fw-bold text-center fs-46 pb--xl-5 pb-4 mb--xl-5'>Roadmap</h2>
                     <div class="timeline">
                         <div class="timeline_container left">
                             <div class="content">

@@ -6,9 +6,9 @@ const TokenSection = () => {
     return (
         <>
             <section className='token position-relative d-none d-lg-block'>
-                <div className="container custom_container py-lg-178">
-                    <Row>
-                        <Col lg={6} className='mb-4 py-5'>
+                <div className="container custom_container py-178">
+                    <Row className='justify-content-between'>
+                        <Col lg={5} className='mb-4'>
                             <div>
                                 <h2 className='fs-46 text-black ff-machine-light font-bold mb-3 pb-1'>EEFI Tokenomics</h2>
                                 <p className='fs-16 ff-raleway line-160 text-black fw-normal mb-4 pb-2'>EEFI is the special rewards token of the protocol that is minted and distributed in a decentralized fashion. It produces amplified yield during uptrends and protects from downside action during downtrends.</p>
@@ -24,7 +24,7 @@ const TokenSection = () => {
                                 <p className='fs-16 fw-semibold ff-raleway light-blue line-134 mb-0'>17,000</p>
                             </div>
                         </Col>
-                        <Col lg={6} className=' py-5'>
+                        <Col lg={5}>
                             <div className='d-flex flex-column gap-31'>
                                 <div className='d-flex align-items-center'>
                                     <span><ColIconOne /></span>
